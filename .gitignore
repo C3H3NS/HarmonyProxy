@@ -1,0 +1,55 @@
+# HarmonyOS
+.idea/
+.hvigor/
+build/
+node_modules/
+oh_modules/
+.cxx/
+.gradle/
+local.properties
+
+# Build outputs
+entry/build/
+entry/.preview/
+entry/.cxx/
+*.hap
+*.app
+*.so
+*.a
+
+# IDE
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Sensitive files
+*.jks
+*.p12
+*.pem
+*.key
+credentials.json
+secrets.json
+.env
+.env.local
+
+# Test
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
