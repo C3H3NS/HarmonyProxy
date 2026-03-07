@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "HarmonyProxy - 鸿蒙网络代理工具"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "HarmonyProxy主入口"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "HarmonyProxy"
+    },
+    {
+      "name": "permission_internet_reason",
+      "value": "需要网络权限以建立代理连接"
+    },
+    {
+      "name": "permission_network_reason",
+      "value": "需要获取网络状态以优化连接"
+    }
+  ]
+}
