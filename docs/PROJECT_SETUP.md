@@ -273,40 +273,6 @@ target_link_libraries(entry PUBLIC
 }
 ```
 
-## 五、Git 配置
-
-### 1. 合并到现有仓库
-
-项目创建完成后，执行以下命令：
-
-```bash
-# 进入新创建的项目目录
-cd E:\鸿蒙\HarmonyProxy-Dev
-
-# 初始化Git
-git init
-
-# 复制现有文件
-copy ..\HarmonyProxy\README.md .
-copy ..\HarmonyProxy\LICENSE .
-copy ..\HarmonyProxy\.gitignore .
-
-# 添加所有文件
-git add .
-
-# 提交
-git commit -m "feat: Initialize HarmonyOS project with DevEco Studio"
-
-# 连接到GitHub
-git remote add origin https://github.com/GF-OrientedProgramming/HarmonyProxy.git
-
-# 拉取远程内容
-git pull origin main --allow-unrelated-histories
-
-# 推送（如果需要强制推送）
-git push -u origin main --force
-```
-
 ## 六、开发环境检查清单
 
 创建项目后，请检查以下内容：
@@ -319,31 +285,7 @@ git push -u origin main --force
 - [ ] 可以在模拟器或真机上运行
 - [ ] Git 仓库已正确配置
 
-## 七、下一步开发计划
-
-项目创建完成后，按以下顺序开发：
-
-1. **UI框架搭建**
-   - 创建主页面布局
-   - 实现底部导航
-   - 创建节点列表页面
-
-2. **VPN服务实现**
-   - 创建VPN服务类
-   - 实现VPN连接/断开
-   - 处理VPN权限请求
-
-3. **代理服务器**
-   - 实现本地SOCKS5代理
-   - 集成到VPN服务
-   - 测试代理功能
-
-4. **协议实现**
-   - 实现Shadowsocks协议
-   - 实现VMess协议
-   - 实现其他协议
-
-## 八、常见问题
+## 七、常见问题
 
 ### Q1: VPN权限无法获取？
 A: VPN权限需要系统签名或特殊申请，开发阶段可以使用普通网络代理方式测试。
@@ -354,6 +296,4 @@ A: 检查NDK版本和CMake配置，确保路径正确。
 ### Q3: 项目无法运行？
 A: 检查API版本兼容性，确保设备或模拟器API版本 >= 项目配置的API版本。
 
----
 
-**创建项目后，请告诉我，我会继续提供具体的代码实现！**
