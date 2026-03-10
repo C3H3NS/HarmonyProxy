@@ -113,8 +113,8 @@ git clone https://github.com/yourusername/HarmonyProxy.git
 
 ## 联系方式
 
-- 项目主页: https://github.com/yourusername/HarmonyProxy
-- 问题反馈: https://github.com/yourusername/HarmonyProxy/issues
+- 项目主页: https://github.com/C3H3NS/HarmonyProxy
+- 问题反馈: https://github.com/C3H3NS/HarmonyProxy/issues
 
 ## 致谢
 
