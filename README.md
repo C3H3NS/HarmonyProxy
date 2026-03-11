@@ -85,7 +85,7 @@ HarmonyProxy/
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/HarmonyProxy.git
+git clone https://github.com/C3H3NS/HarmonyProxy.git
 
 # 使用DevEco Studio打开项目
 # 同步项目依赖
